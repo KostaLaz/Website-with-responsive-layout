@@ -19,6 +19,13 @@ ul{
     margin: 0;
     padding: 0;
 }
+.button_1{
+    background-color: #e8491d;
+    border: 0;
+    height: 38px;
+    padding right: 20px;
+    color: white;
+}
 
 /* Header*/
 header{
@@ -55,9 +62,63 @@ header nav{
 header .highlight, header .current a{
 
     color: #e8491d;
-    font-wight: bold;
+    font-weight: bold;
 }
-header: a{
+header a:hover{
     color: #cccccc;
     font-weight: bold;
+}
+
+/* Showcase */
+#showcase{
+    min-height: 400px;
+    background: url('../img/web-design-background-image.jpg') no-repeat -1500px;
+    text-align: center;
+    color: white;
+}
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin bottom: 10;
+}
+#showcase p{
+    font-size: 20px;
+}
+
+#newsletter {
+    border-top: 4px #e8491d solid;
+    padding: 15px;
+    color: #ffffff;
+    background: #35424a;
+}
+#newsletter h1{
+    float: left;
+}
+#newsletter form{
+    float: right;
+    margin-top: 20px;
+}
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+
+}
+
+/* Boxes */
+
+#boxes{
+    margin-top: 20px;
+
+}
+
+#boxes .box{
+    align: center;
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
+#boxes .box img{
+    height: 90px;
+    width: 90px;
 }
