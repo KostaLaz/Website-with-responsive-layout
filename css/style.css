@@ -140,11 +140,24 @@ aside#side-bar{
     width: 30%;
     margin-top: 10px;
 }
+
+aside#side-bar .quote input, aside#side-bar .quote textarea{
+    width: 90%;
+    padding: 5px;
+}
 /* Main-col*/
 article#main-col{
     float: left;
     width: 65%;
     margin-top: 10px;
+}
+/* Services*/
+ul#services li{
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 1px;
+    margin-bottom: 5px;
+    background: #e6e6e6;
 }
 footer{
     padding: 20px;
@@ -153,3 +166,11 @@ footer{
     background-color: #e8491d;
     text-align: center;
 }
+
+/* Media Queries*/
+@media (max-width: 768px){
+    body{
+        display: none;
+    }
+}
+
